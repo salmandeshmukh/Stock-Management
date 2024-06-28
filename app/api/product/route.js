@@ -6,7 +6,7 @@ export async function GET(request) {
     
    
 // Replace the uri string with your connection string.
-const uri = "mongodb+srv://mongodb:Mongosalman9527@cluster0.izktr06.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://mongodb:Mongosalman9527@cluster0.izktr06.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(uri);
 
@@ -34,7 +34,7 @@ export async function POST(request) {
     // Replace the uri string with your connection string.
     let body = await request.json()
     
-    const uri = "mongodb+srv://mongodb:Mongosalman9527@cluster0.izktr06.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+    const uri = "mongodb+srv://mongodb:Mongosalman9527@cluster0.izktr06.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0?retryWrites=true&w=majority&appName=Cluster0";
     
     const client = new MongoClient(uri);
     
